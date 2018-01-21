@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon --use_strict index.js --history-api-fallback",
     "build": "webpack",
-    "heroku-postbuild": ""
+    "heroku-postbuild": "npm run build & node index.js"
   },
   "repository": {
     "type": "git",
