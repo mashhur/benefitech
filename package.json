@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
-    "heroku-postbuild": "npm run build & node index.js"
+    "heroku-postbuild": "node index.js"
   },
   "repository": {
     "type": "git",
