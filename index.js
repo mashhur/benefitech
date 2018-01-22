@@ -61,11 +61,11 @@ function normalizePort(val) {
   return false;
 }
 
-var port = normalizePort(process.env.PORT || '4004');
+var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 // start the server
 app.listen(port, () => {
-  console.log('Server is running on http://localhost:4004 or http://127.0.0.1:4004');
+  console.log('Server is running on http://localhost:3000 or http://127.0.0.1:3000');
 });
 
