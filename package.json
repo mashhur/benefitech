@@ -4,7 +4,7 @@
   "description": "BenefiTech profile.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "node index.js",
     "build": "webpack",
     "heroku-postbuild": "node index.js"
   },
